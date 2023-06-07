@@ -1,7 +1,9 @@
 name: ever
 on:
   pull_request:
-  merge_group:
+  push:
+    branches:
+    - main
 jobs:
   ever:
     runs-on: ubuntu-latest
