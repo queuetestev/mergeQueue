@@ -8,8 +8,6 @@ on:
     types: [created]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
   publish-npm:
     runs-on: ubuntu-latest
     steps:
